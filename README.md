@@ -1,11 +1,7 @@
 # SIMPLEAUTONOMO
 Gestión de autónomos (python, streamlit)
 
-
-
-<div style="border: 5px solid red; padding: 10px;">
-  ![image](https://github.com/txebas/SIMPLEAUTONOMO/assets/7387697/dceaada4-70bb-4c12-9e76-bdfe5933e106)
-  </div>
+![image](https://github.com/txebas/SIMPLEAUTONOMO/assets/7387697/dceaada4-70bb-4c12-9e76-bdfe5933e106)
 
 
 
