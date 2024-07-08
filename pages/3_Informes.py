@@ -8,8 +8,18 @@ st.set_page_config(page_title="Informes", page_icon="📊")
 st.subheader("Informes")
 st.write("Generar informes de ingresos y gastos")
 
-start_date = st.date_input("Fecha de inicio")
-end_date = st.date_input("Fecha de fin")
+# Create the two columns
+col1, col2 = st.columns(2)
+
+# Add content to the first column
+with col1:
+    start_date = st.date_input("Fecha de inicio")
+
+# Add content to the second column
+with col2:
+    end_date = st.date_input("Fecha de fin")
+
+
 
 if st.button("Generar Informe"):
     ingresos = obtener_ingresos()
@@ -41,5 +51,5 @@ if st.button("Generar Informe"):
     col1, col2, col3 = st.columns(3)
     #col1.metric("Temperature", "70 °F", "1.2 °F")
     col1.metric("Total",str(percent)+'%')
-    col2.metric("Wind", "9 mph", "-8%")
-    col3.metric("Humidity", "86%", "4%")
+    # col2.metric("Wind", "9 mph", "-8%")
+    # col3.metric("Humidity", "86%", "4%")
